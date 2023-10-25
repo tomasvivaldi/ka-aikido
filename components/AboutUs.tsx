@@ -38,9 +38,13 @@ const AboutUs = () => {
                 Wir trainieren zu folgenden Zeiten:
               </p>
               <div className="my-4 font-light flex flex-col gap-2 bg-slate-100 hover:bg-slate-200 border border-slate-400 shadow-lg rounded-lg w-fit px-4 py-2">
-                <p>dienstags 19:00 – 20:30 Uhr</p>
+                <p>Dienstags 19:00 – 20:30 Uhr</p>
 
-                <p>freitags 19:30 – 21:00 Uhr</p>
+                <p>Mittwoch 19:00 – 20:30 Uhr</p>
+
+                <p>Freitags 19:30 – 21:00 Uhr</p>
+
+                <p>Sonntag 18:00 – 19:00 Uhr</p>
               </div>
               <p>
                 Ein Einstieg auch für Anfänger ist jederzeit möglich, ebenso wie

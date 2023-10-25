@@ -64,8 +64,8 @@ const Impressum: React.FC = () => {
 
             <h2 className="heading3 mb-4">Vorstand</h2>
             <p className="text-base">
-              Vorsitzender Sören Köhler <br />
-              Stellvertretender Vorsitzender Andrey Koksharov <br />
+              Vorsitzender Heike Wendelin <br />
+              Stellvertretender Vorsitzender Oliver Jergis <br />
               Schriftführer Ralph Kretzler
             </p>
 
