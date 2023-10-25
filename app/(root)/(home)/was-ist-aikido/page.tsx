@@ -1,3 +1,4 @@
+import BackButton from "@/components/BackButton";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -121,6 +122,7 @@ const WhatIsAikido = () => {
           ))}
         </section>
       </div>
+      <BackButton />
     </>
   );
 };

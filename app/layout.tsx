@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="de">
       <body className="min-h-screen bg-[#f3f4f6] font-poppins ">
         {children}
       </body>

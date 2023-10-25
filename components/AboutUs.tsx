@@ -52,30 +52,65 @@ const AboutUs = () => {
         </div>
       </div>
       <div>
-        <div className=" mx-8 mt-32">
-          <h3 className="heading2 mb-4">Wo Sie uns finden</h3>
+        <div className=" mt-32 flex flex-row w-full lg:gap-32 md:gap-8">
+          <div className=" max-w-5xl">
+            <h3 className="heading2 mb-4">Wo Sie uns finden</h3>
 
-          <p className="paragraph-regular  text-gray-700 mb-1">
-            Sie finden unseren Übungsraum in Karlsruhe in der Steinstr. 23 im
-            Gewerbehof in einem der Hintergebäude. Der Eingang befindet sich im
-            Hof auf der rechten Seite, hinter dem Fahrradladen. Im 2. OG geht es
-            nach links in den Gang. <br />
-          </p>
-          <p className="paragraph-regular  text-gray-700 mb-4">
-            Für Ortskundige: Das Dojo ist zwei Stockwerke über dem Café Palaver.
-          </p>
+            <p className="paragraph-regular  text-gray-700 mb-1">
+              Sie finden unseren Übungsraum in Karlsruhe in der Steinstr. 23 im
+              Gewerbehof in einem der Hintergebäude. Der Eingang befindet sich
+              im Hof auf der rechten Seite, hinter dem Fahrradladen. Im 2. OG
+              geht es nach links in den Gang. <br />
+            </p>
+            <p className="paragraph-regular  text-gray-700 mb-4">
+              Für Ortskundige: Das Dojo ist zwei Stockwerke über dem Café
+              Palaver.
+            </p>
+            <div className="relative rounded-lg w-[90%] md:hidden h-[50vh] my-4 mx-auto">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.189299439306!2d8.404825076137168!3d49.006983490238596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47970647b7efcc09%3A0x897ee0292101788d!2sAikido-Dojo%20Jiyukan!5e0!3m2!1sen!2sde!4v1698225763690!5m2!1sen!2sde"
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "100%",
+                  border: 0,
+                  borderRadius: "5px",
+                }}
+                allowFullScreen
+                loading="lazy"
+              ></iframe>
+            </div>
 
-          <h3 className="heading3 mb-4 mt-8">Kontakt</h3>
+            <h3 className="heading3 mb-4 mt-8">Kontakt</h3>
 
-          <p className="paragraph-regular text-gray-700 mb-4">
-            Kontakt: 0721 13 27 417 –{" "}
-            <a
-              href="mailto:mail@aikido-jiyukan.de"
-              className="text-sky-600 hover:underline"
-            >
-              mail@aikido-jiyukan.de
-            </a>
-          </p>
+            <p className="paragraph-regular text-gray-700 mb-4">
+              Kontakt: 0721 13 27 417 –{" "}
+              <a
+                href="mailto:mail@aikido-jiyukan.de"
+                className="text-sky-600 hover:underline"
+              >
+                mail@aikido-jiyukan.de
+              </a>
+            </p>
+          </div>
+          <div className="relative rounded-lg hidden md:block md:w-full -mr-12 lg:mr-0">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.189299439306!2d8.404825076137168!3d49.006983490238596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47970647b7efcc09%3A0x897ee0292101788d!2sAikido-Dojo%20Jiyukan!5e0!3m2!1sen!2sde!4v1698225763690!5m2!1sen!2sde"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                border: 0,
+                borderRadius: "5px",
+              }}
+              allowFullScreen
+              loading="lazy"
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>

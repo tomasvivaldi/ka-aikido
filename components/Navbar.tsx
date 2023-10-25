@@ -50,15 +50,33 @@ const Navbar = () => {
           </li>
           <li className="body-text !font-semibold text-gray-200">
             {/* <Link href="" target="_blank"> */}
-            <a
+            <Link
               href="/was-ist-aikido"
               className="font-semibold hover:underline"
               rel="noopener noreferrer"
             >
               Was Ist Aikido
-            </a>
-
-            {/* </Link> */}
+            </Link>
+          </li>
+          <li className="body-text !font-semibold text-gray-200">
+            {/* <Link href="" target="_blank"> */}
+            <Link
+              href="/impressum"
+              className="font-semibold hover:underline"
+              rel="noopener noreferrer"
+            >
+              Impressum
+            </Link>
+          </li>
+          <li className="body-text !font-semibold text-gray-200">
+            {/* <Link href="" target="_blank"> */}
+            <Link
+              href="/datenschutz"
+              className="font-semibold hover:underline"
+              rel="noopener noreferrer"
+            >
+              Datenschutz
+            </Link>
           </li>
         </ul>
 
@@ -95,6 +113,22 @@ const Navbar = () => {
                     href="/was-ist-aikido"
                   >
                     Was Ist Aikido
+                  </a>
+                </li>
+                <li className="body-text !font-semibold text-gray-200">
+                  <a
+                    className="font-semibold block py-2 px-5 hover:bg-gray-600"
+                    href="/impressum"
+                  >
+                    Impressum
+                  </a>
+                </li>
+                <li className="body-text !font-semibold text-gray-200">
+                  <a
+                    className="font-semibold block py-2 px-5 hover:bg-gray-600"
+                    href="/datenschutz"
+                  >
+                    Datenschutz
                   </a>
                 </li>
 
