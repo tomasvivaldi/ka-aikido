@@ -62,7 +62,7 @@ const Footer = () => {
             <h4 className="font-bold text-base mb-2">Unsere Adresse</h4>
             <div className="flex flex-col gap-1 justify-between text-xs sm:text-sm ">
               <p>Aikido-Dojo Jiyukan Karlsruhe e.V.</p>
-              <p>Straßenname 123</p>
+              <p>Steinstraße 23 • 76133 Karlsruhe</p>
               <p>76131 Karlsruhe</p>
             </div>
           </div>
