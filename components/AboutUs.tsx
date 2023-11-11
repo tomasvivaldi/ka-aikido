@@ -40,7 +40,7 @@ const AboutUs = () => {
               <div className="my-4 font-light flex flex-col gap-2 bg-slate-100 hover:bg-slate-200 border border-slate-400 shadow-lg rounded-lg w-fit px-4 py-2">
                 <p>Dienstags 19:00 – 20:30 Uhr</p>
 
-                <p>Mittwoch 19:45 – 20:30 Uhr</p>
+                <p>Mittwoch 19:45 – 21:15 Uhr</p>
 
                 <p>Freitags 19:30 – 21:00 Uhr</p>
 
